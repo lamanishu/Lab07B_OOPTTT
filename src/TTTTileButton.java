@@ -7,7 +7,7 @@ public class TTTTileButton extends JButton {
     public TTTTileButton(int row, int col) {
         this.row = row;
         this.col = col;
-        this.setText(""); // empty at start
+        this.setText("");
         this.setFont(this.getFont().deriveFont(40f));
     }
 
